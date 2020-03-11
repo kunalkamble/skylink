@@ -1,0 +1,24 @@
+{
+  "name": "skylink",
+  "version": "1.0.0",
+  "description": "Explore Sia Skylink folder structure",
+  "preferGlobal": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sia",
+    "skynet",
+    "folder explorer",
+    "file explorer",
+    "Skylink"
+  ],
+  "author": "Kunal Kamble <kunal6666@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "flat": "^5.0.0"
+  }
+}
