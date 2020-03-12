@@ -23,4 +23,9 @@ const getHeaders = async (skylink) => {
   }
 }
 
-module.exports = { getHeaders }
+const getFileContent = async (fileSkylink) => {
+  const response = await axios.get(fileSkylink);
+  return response.data
+}
+
+module.exports = { getHeaders, getFileContent }

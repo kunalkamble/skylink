@@ -6,4 +6,8 @@ const explore = async (skylink) => {
   return await api.getHeaders(skylink)
 }
 
-module.exports = { explore }
+const getFileContent = async (fileSkylink) => {
+  return await api.getFileContent(fileSkylink)
+}
+
+module.exports = { explore, getFileContent }

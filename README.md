@@ -36,8 +36,12 @@ Performing a `explore` request
 ```js
 const skylink = require('skylink');
 
-// Make a request for a folder structure with a given URL
+// Make a request get a folder structure from a Skylink
 skylink.explore('https://siasky.net/_A5w9UBSNczl5kFwkn8CD_aAOV62Thwk2_E9yIU1sMWP2w')
+       .then((data) => { console.log(data) })
+
+// Make a request to get file content from a Skylink
+skylink.getFileContent('https://siasky.net/_A5w9UBSNczl5kFwkn8CD_aAOV62Thwk2_E9yIU1sMWP2w/skynet_files/style.css')
        .then((data) => { console.log(data) })
 
 ```
