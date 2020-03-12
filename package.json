@@ -1,6 +1,6 @@
 {
   "name": "skylink",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Explore Sia Skylink folder structure",
   "preferGlobal": true,
   "main": "index.js",
@@ -15,7 +15,12 @@
     "file explorer",
     "Skylink"
   ],
-  "author": "Kunal Kamble <kunal6666@gmail.com>",
+  "homepage": "https://github.com/kunalkamble/skylink/blob/master/README.md",
+  "author": "Kunal Kamble <kunal6666@gmail.com> (http://kunalkamble.com/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kunalkamble/skylink.git"
+  },
   "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",

@@ -37,7 +37,8 @@ Performing a `explore` request
 const skylink = require('skylink');
 
 // Make a request for a folder structure with a given URL
-const folderStructure = skylink.explore('https://siasky.net/_A5w9UBSNczl5kFwkn8CD_aAOV62Thwk2_E9yIU1sMWP2w')
+skylink.explore('https://siasky.net/_A5w9UBSNczl5kFwkn8CD_aAOV62Thwk2_E9yIU1sMWP2w')
+       .then((data) => { console.log(data) })
 
 ```
 

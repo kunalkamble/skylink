@@ -5,8 +5,7 @@ const api = require('./src/api')
 const { getFolderStructure } = require('./src/getFolderStructure')
 
 const explore = async (skylink) => {
-  const headers =  await api.getHeaders(skylink)
-  console.log(headers)
+  return await api.getHeaders(skylink)
 }
 
 module.exports = { explore }
